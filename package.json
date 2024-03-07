@@ -1,8 +1,9 @@
 {
-  "name": "@alvinend/tic-tac-toe-cli",
+  "name": "tic-tac-toe-cli",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+    "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,8 +12,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "chalk": "^5.3.0",
-    "figlet": "^1.7.0",
-    "inquirer": "^9.2.15"
+   "chalk": "^4.1.2",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.0"
   }
 }
